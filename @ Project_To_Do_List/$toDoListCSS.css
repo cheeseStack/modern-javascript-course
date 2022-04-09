@@ -1,0 +1,29 @@
+/* styles for the todo list  */
+
+body{
+    background: #352f5b;
+}
+.container{
+    max-width: 400px;
+}
+/* use atribute selectors for individual form parts https://www.w3schools.com/css/css_form.asp */
+input[type=text],
+input[type=text]:focus{
+    color:#fff;
+    border:none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+.todos{
+    background: #423a6f;
+}
+
+.delete{
+    /* the cursor shows a little hand pointing when it is hovered over */
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+    /* !important over-writes any other class it might have */
+}
